@@ -1,3 +1,10 @@
+# Description
+- This app visualizes a spinach field's stress levels using GeoTIFF imagery and NDVI-based heatmaps.
+- It loads a drone-captured GeoTIFF file and overlays stress data from JSON files, where each grid cell represents a stress value (0.0 to 1.0).
+- The stress heatmap is color-coded from green (healthy) to red (stressed).
+- Users can explore the field interactively using Leaflet.js.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
